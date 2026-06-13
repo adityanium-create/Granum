@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Lucia",
+    "slug": "lucia-italian-tutor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0F0E0D",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F0E0D"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.granum.lucia"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Lucia needs your microphone to listen to your Italian."
+        }
+      ]
+    ]
+  }
+}
